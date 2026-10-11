@@ -1,0 +1,4 @@
+export const metadata={title:"Tutorial — KelasKita"};
+export default function TutorialPage(){
+  return (<div className="mx-auto max-w-6xl px-4 py-10 md:px-6"><h1 className="text-2xl font-bold">Tutorial Gratis</h1><p className="mt-1 text-sm text-slate-600">Kumpulan tutorial vibe coding & AI automation — dummy, siap isi konten real.</p><div className="mt-6 grid gap-4 md:grid-cols-3">{[1,2,3,4,5,6].map(i=><div key={i} className="rounded-2xl border border-slate-200 bg-white p-5"><div className="h-28 rounded-xl bg-slate-100"/><h3 className="mt-3 font-semibold text-sm">Tutorial #{i}: Vibe Coding Intro</h3><p className="mt-1 text-sm text-slate-600 line-clamp-2">Dummy excerpt — ganti dengan artikel/video real.</p></div>)}</div></div>);
+}

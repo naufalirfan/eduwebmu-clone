@@ -1,0 +1,4 @@
+export const metadata={title:"Komunitas — KelasKita"};
+export default function CommunityPage(){
+  return (<div className="mx-auto max-w-6xl px-4 py-10 md:px-6"><h1 className="text-2xl font-bold">Komunitas</h1><p className="mt-2 text-sm leading-7 text-slate-600">Gabung WhatsApp & Telegram khusus member per kelas. Tanya saat stuck, share progress.</p><div className="mt-6 flex flex-wrap gap-3"><a href="#" className="rounded-full bg-[#25D366] px-5 py-2.5 text-sm font-semibold text-white">Join WhatsApp</a><a href="#" className="rounded-full bg-[#229ED9] px-5 py-2.5 text-sm font-semibold text-white">Join Telegram</a></div></div>);
+}

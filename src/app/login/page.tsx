@@ -1,0 +1,4 @@
+export const metadata={title:"Masuk — KelasKita"};
+export default function LoginPage(){
+  return (<div className="mx-auto max-w-sm px-4 py-16 md:px-6"><h1 className="text-xl font-bold text-center">Masuk ke KelasKita</h1><p className="mt-1 text-center text-sm text-slate-600">Placeholder — hubungkan Clerk (publishable key) di next step.</p><div className="mt-6 rounded-2xl border border-slate-200 bg-white p-6"><input placeholder="Email" className="w-full rounded-xl border border-slate-200 px-3 py-2.5 text-sm"/><input placeholder="Password" type="password" className="mt-3 w-full rounded-xl border border-slate-200 px-3 py-2.5 text-sm"/><button className="mt-4 w-full rounded-full bg-indigo-600 py-2.5 text-sm font-semibold text-white">Masuk (dummy)</button></div></div>);
+}

@@ -1,0 +1,4 @@
+export const metadata={title:"AI PRD Generator — KelasKita"};
+export default function PRDPage(){
+  return (<div className="mx-auto max-w-3xl px-4 py-10 md:px-6"><h1 className="text-2xl font-bold">AI PRD Generator</h1><p className="mt-1 text-sm text-slate-600">1 kredit / generate. Tulis ide → jawab pertanyaan → dapatkan PRD lengkap (fitur, alur, skema DB, tasks).</p><div className="mt-6 rounded-2xl border border-slate-200 bg-white p-6"><label className="text-sm font-medium">Ide aplikasimu</label><textarea className="mt-2 w-full rounded-xl border border-slate-200 p-3 text-sm" rows={4} placeholder="Contoh: platform kursus online dengan payment QRIS..."/><button className="mt-4 rounded-full bg-indigo-600 px-5 py-2.5 text-sm font-semibold text-white">Generate PRD (dummy)</button><p className="mt-2 text-xs text-slate-500">Integrasi LLM (Claude/OpenAI) + cek saldo kredit — next step setelah UI ini.</p></div></div>);
+}
